@@ -1,0 +1,41 @@
+# Core Python utilities
+numpy
+pandas
+tqdm
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# Hugging Face ecosystem
+transformers
+datasets
+tokenizers
+accelerate
+huggingface_hub
+safetensors
+
+# NLP & text processing
+sentencepiece
+regex
+
+# Embeddings & similarity
+scikit-learn
+faiss-cpu
+
+# API & serving (later days)
+fastapi
+uvicorn
+
+# Environment & configs
+python-dotenv
+pyyaml
+
+# Visualization (for understanding)
+matplotlib
+seaborn
+
+# Jupyter (optional but recommended)
+notebook
+ipykernel
