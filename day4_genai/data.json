@@ -1,0 +1,44 @@
+[
+  {"input": "Hello", "output": "Hi! How can I help you today?"},
+  {"input": "Hi there", "output": "Hello! What would you like to know?"},
+  {"input": "Good morning", "output": "Good morning! How can I assist you?"},
+  {"input": "Good evening", "output": "Good evening! How may I help you today?"},
+
+  {"input": "What is AI?", "output": "AI is the simulation of human intelligence by machines, enabling them to think and learn."},
+  {"input": "Define artificial intelligence", "output": "Artificial intelligence is the field of creating systems that can perform tasks requiring human intelligence."},
+  {"input": "Explain AI in simple terms", "output": "AI is when computers are trained to act smart, like humans."},
+
+  {"input": "What is machine learning?", "output": "Machine learning is a subset of AI that allows systems to learn from data without being explicitly programmed."},
+  {"input": "Explain ML", "output": "Machine learning enables computers to find patterns in data and improve automatically."},
+  {"input": "Difference between AI and ML", "output": "AI is the broader concept, while machine learning is a specific technique used to achieve AI."},
+
+  {"input": "What is deep learning?", "output": "Deep learning is a type of machine learning that uses neural networks with multiple layers."},
+  {"input": "Explain neural networks", "output": "Neural networks are models inspired by the human brain that process data through interconnected layers."},
+
+  {"input": "What is NLP?", "output": "Natural Language Processing allows machines to understand and generate human language."},
+  {"input": "Explain NLP simply", "output": "NLP helps computers read, understand, and talk like humans."},
+
+  {"input": "What is computer vision?", "output": "Computer vision enables machines to interpret and analyze images and videos."},
+  {"input": "Explain computer vision", "output": "It is the field of teaching computers to see and understand visual information."},
+
+  {"input": "What is overfitting?", "output": "Overfitting occurs when a model learns the training data too well and performs poorly on new data."},
+  {"input": "Explain overfitting simply", "output": "Overfitting means the model memorizes instead of learning patterns."},
+
+  {"input": "What is fine-tuning?", "output": "Fine-tuning is the process of adapting a pre-trained model to a specific task using additional data."},
+  {"input": "Fine-tuning vs prompting", "output": "Prompting guides a model at inference time, while fine-tuning changes the model’s behavior through training."},
+
+  {"input": "What is LoRA?", "output": "LoRA is a technique that fine-tunes models efficiently by training only a small number of parameters."},
+  {"input": "Explain PEFT", "output": "PEFT stands for Parameter-Efficient Fine-Tuning, which reduces cost by updating fewer parameters."},
+
+  {"input": "What are transformers?", "output": "Transformers are deep learning models that use attention mechanisms to process sequences efficiently."},
+  {"input": "Explain attention mechanism", "output": "Attention allows a model to focus on the most important parts of the input."},
+
+  {"input": "What is a dataset?", "output": "A dataset is a structured collection of data used to train and evaluate models."},
+  {"input": "Why is data important in ML?", "output": "Data quality directly affects how well a machine learning model performs."},
+
+  {"input": "What is supervised learning?", "output": "Supervised learning uses labeled data to train models."},
+  {"input": "What is unsupervised learning?", "output": "Unsupervised learning finds patterns in unlabeled data."},
+
+  {"input": "What is a loss function?", "output": "A loss function measures how far a model’s predictions are from the correct output."},
+  {"input": "Explain gradient descent", "output": "Gradient descent is an optimization algorithm used to minimize loss during training."}
+]
