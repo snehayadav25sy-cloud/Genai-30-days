@@ -11,6 +11,7 @@ model_name = "google/flan-t5-small"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
+
 # 3️⃣ Apply LoRA (PEFT)
 lora_config = LoraConfig(
     r=8,
@@ -54,12 +55,14 @@ training_args = TrainingArguments(
     fp16=False
 )
 
+
 # 6️⃣ Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=tokenized_dataset["train"]
 )
+
 
 # 7️⃣ Train
 trainer.train()
