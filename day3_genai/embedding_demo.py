@@ -20,3 +20,5 @@ outputs = model(**inputs)
 embeddings = outputs.last_hidden_state
 
 print("Embedding shape:", embeddings.shape)
+
+# the embedding has shape which is [batch size , number of tokens , embedding size(768)] 
