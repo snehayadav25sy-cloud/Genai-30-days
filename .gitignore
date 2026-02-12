@@ -11,3 +11,20 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Virtual Environments
+hf_env/
+mygenaivenv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
