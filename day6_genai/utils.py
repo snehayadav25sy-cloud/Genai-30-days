@@ -16,7 +16,7 @@ def summarize_text(text):
                  ],
         temperature=0.3         
     )
-    return response.choices[0].message.content
+    return response.choices[0].message.content  
 
 def answer_question(context , question):
     response=client.chat.completions.create(
