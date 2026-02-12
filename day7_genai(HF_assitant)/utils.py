@@ -1,6 +1,6 @@
 import torch
 from transformers import pipeline
-
+#will add the api later
 # Detect device (0 = GPU, -1 = CPU)
 device = 0 if torch.cuda.is_available() else -1
 
