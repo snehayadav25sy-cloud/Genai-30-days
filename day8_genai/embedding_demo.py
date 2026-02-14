@@ -10,7 +10,7 @@ sentences = [
     "The pizza was delicious"
 ]
 
-# Generate embeddings
+# Generate embeddings have been done using sentence transformer
 embeddings = model.encode(sentences)
 
 # Compare similarity
